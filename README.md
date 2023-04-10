@@ -2,7 +2,7 @@
 -----------------
 
 ###### Build 
-```
+```bash
 go build 
 ./ytcvt --help
 ```
@@ -10,10 +10,16 @@ go build
 
 ###### Usage 
 Usage of ./ytcvt:
+
   -f string
+
         File list containing youtube link
+
   -o string
+
         The output prefix (default "/mnt/e/Youtube/")
+
   -u string
+  
         The youtube url link
 
