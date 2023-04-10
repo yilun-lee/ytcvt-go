@@ -1,7 +1,6 @@
 package utils
 
 import (
-	"log"
 	"sync"
 )
 
@@ -37,9 +36,4 @@ func ThreadMap[T any](inputList []T, fn func(T) ResultError) []ResultError {
 	wg.Wait()
 
 	return resErrSlice
-}
-
-func ThisIsAFunc(ss string) ResultError {
-	log.Println(ss)
-	return ResultError{ss, nil}
 }

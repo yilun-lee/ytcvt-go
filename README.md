@@ -9,17 +9,11 @@ go build
 
 
 ###### Usage 
-Usage of ./ytcvt:
+Usage of ytcvt:
 
-  -f string
+- -f string   File list containing youtube link 
 
-        File list containing youtube link
+- -o string   The output prefix (default "/mnt/e/Youtube/")
 
-  -o string
-
-        The output prefix (default "/mnt/e/Youtube/")
-
-  -u string
-  
-        The youtube url link
+- -u string   The youtube url link
 
